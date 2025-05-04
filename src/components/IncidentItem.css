@@ -1,0 +1,36 @@
+.incident-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .incident-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .incident-header {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .incident-header button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .incident-header button:hover {
+    background-color: #138496;
+  }
+  
+  .incident-description {
+    margin-top: 10px;
+  }
+  
